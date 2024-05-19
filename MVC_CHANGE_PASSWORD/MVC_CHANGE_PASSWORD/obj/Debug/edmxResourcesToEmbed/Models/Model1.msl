@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MVC_CHANGE_PASSWORDModelStoreContainer" CdmEntityContainer="MVC_CHANGE_PASSWORDEntities">
+    <EntitySetMapping Name="TBL_REGISTRATION">
+      <EntityTypeMapping TypeName="MVC_CHANGE_PASSWORDModel.TBL_REGISTRATION">
+        <MappingFragment StoreEntitySet="TBL_REGISTRATION">
+          <ScalarProperty Name="RID" ColumnName="RID" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+          <ScalarProperty Name="AGE" ColumnName="AGE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
